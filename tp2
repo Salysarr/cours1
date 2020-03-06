@@ -1,0 +1,53 @@
+# cours1
+
+
+
+
+class animal:
+    def __init__(self, name, nombre, regime_alimentaire, nourriture, nombre_de_pattes = 0):
+
+        self.nombre = nombre
+        self.name = name
+        self.nombre_de_pattes = nombre_de_pattes
+        self.nourriture = nourriture
+        self.regime_alimentaire = regime_alimentaire
+        
+    def __str__(self):
+        return "Cet animal est un " + self.name + ", " + self.regime_alimentaire + " ,a une qte de nourriture de " + self.nourriture + " et le nombre de pattes est " + str(self.nombre_de_pattes) + " le total des animaux est " + str(self.nombre)  
+        
+    
+class mammifere(animal) :
+    pass
+
+class domestique(animal) :
+    pass
+    
+class marin(animal) : 
+    pass
+
+
+if __name__ == "__main__":
+    
+    
+
+
+   
+    zoo = {}
+    zoo["mammifere"] = mammifere("humain", 2, "omnivore", "600g", 2)
+    zoo["mammifere"] = mammifere("lapin", 7, "végétarien", "100g", 4)
+    zoo["mammifere"] = mammifere("lion", 1, "carnivore", "3kg", 4)
+    zoo["mammifere"] = mammifere("mouton", 5, "végétarien", "500g", 4)
+    zoo["mammifere"] = mammifere("chien", 2, "omnivore", "3kg", 4)
+    zoo["domestique"] = domestique("lapin",7, "omnivore", "600g", 4)
+    zoo["marin"] = marin("Pieuvre", 1, "carnivore", "200g", 0)
+    zoo["domestique"] = domestique("poule", 8,  "omnivore", "200kg", 2)
+
+    for my_key in zoo:
+        print(my_key + " " + str(zoo[my_key])) 
+    
+
+    
+    
+    
+    
+        
