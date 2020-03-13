@@ -1,0 +1,20 @@
+{
+  "ferme_name": "ferme de thies",
+  "animal_list": [
+    {
+      "type": "vache",
+      "age": "1an",
+      "sexe": "femelle"
+    },
+    {
+      "type": "poule",
+      "age": "2ans",
+      "sexe": "femelle"
+    },
+    {
+      "type": "tortue",
+      "age": "100ans",
+      "sexe": "femelle"
+    }
+  ]
+}
