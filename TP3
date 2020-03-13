@@ -1,0 +1,44 @@
+class animal:
+    def __init__(self, type, age, sexe):
+
+        self.type = type
+        self.age = age
+        self.sexe = sexe
+    def __str__(self):
+       return "Cet animal est un(e) " + self.type + ", il a " + self.age + ". C'est un(e) " + self.sexe
+        
+class ferme:
+    def __init__(self, name):
+        self.animal_list = []
+        self.name = name  
+    def __init__(self, name):
+        self.name = name
+        
+    def __str__(self):
+        return "C'est la " + self.name
+        
+if __name__ == "__main__":
+    
+    ferme_list = []
+    ferme_list.append(ferme("Premiere ferme"))
+    ferme_list[0].animal_list.append(animal("vache", "1an", "femelle"))
+    ferme_list[0].animal_list.append(animal("poule", "6mois", "femelle"))
+    ferme_list[0].animal_list.append(animal("mouton", "1an", "male"))
+
+    ferme_list.append(ferme("Deuxieme ferme"))
+    ferme_list[1].animal_list.append(animal("chat", "8mois", "male"))
+    ferme_list[1].animal_list.append(animal("chien", "2mois", "male"))
+
+    ferme_list.append(ferme("Troisieme ferme", json_string))
+    ferme_list[2].animal_list.append(animal("lionnne", "2ans", "femelle"))
+    
+    print(ferme_list[0])                 
+    print(ferme_list[0].animal_list[0])
+    print(ferme_list[0].animal_list[1])
+    print(ferme_list[0].animal_list[2])
+    print(ferme_list[1])
+    print(ferme_list[1].animal_list[0])
+    print(ferme_list[1].animal_list[1])
+    print(ferme_list[2])      
+    print(ferme_list[2].animal_list[0])
+                      
