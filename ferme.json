@@ -1,20 +1,51 @@
+[
 {
-  "ferme_name": "ferme de thies",
-  "animal_list": [
-    {
-      "type": "vache",
-      "age": "1an",
-      "sexe": "femelle"
-    },
-    {
-      "type": "poule",
-      "age": "2ans",
-      "sexe": "femelle"
-    },
-    {
-      "type": "tortue",
-      "age": "100ans",
-      "sexe": "femelle"
-    }
-  ]
+	"ferme_name": "Premiere ferme",
+	"animal_list": [
+		{
+			"type": "vache",
+			"age": "1an",
+			"sexe": "femelle"
+		},
+    		{
+      			"type": "poule",
+      			"age": "2ans",
+      			"sexe": "femelle"
+   		 },
+   		 {
+      			"type": "tortue",
+      			"age": "100ans",
+      			"sexe": "femelle"
+    		}
+	]
+},
+{
+  	"ferme_name": "Deuxieme ferme",
+	"animal_list": [
+    		{
+			"type": "chat",
+			"age": "8mois",
+			"sexe": "male"
+		},
+		{
+			"type": "chien",
+			"age": "2mois",
+			"sexe": "male"
+		}
+	]
+},
+{
+
+	"ferme_name": "Troisieme ferme",
+	"animal_list": [
+		{
+			"type": "lionne",
+			"age": "2ans",
+			"sexe": "femelle"
+		}
+	]
 }
+]
+
+
+                     
